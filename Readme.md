@@ -1,4 +1,4 @@
-# TravelEase Front Page
+# TravelHUB Front Page
 
 This is a modern, responsive travel website front page built with HTML & CSS and attractive Google Fonts.  
 It features a hero section, featured destinations, reasons to choose us, testimonials, a newsletter signup, and a stylish footer with social links.
