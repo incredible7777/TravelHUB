@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelEase - Your Journey Begins Here</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">TravelEase</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="#destinations">Destinations</a>
+                    <a class="nav-item nav-link" href="#packages">Packages</a>
+                    <a class="nav-item nav-link" href="#about">About</a>
+                    <a class="nav-item nav-link" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero d-flex align-items-center" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1469474968028-56623f02e42e') center/cover; height: 100vh;">
+        <div class="container text-center text-white">
+            <h1 class="display-4">Discover Your Next Adventure</h1>
+            <p class="lead">Explore the world's most beautiful destinations with us</p>
+            <div class="search-bar d-flex justify-content-center">
+                <input type="text" class="form-control mr-2" placeholder="Where do you want to go?">
+                <button class="btn btn-warning">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="featured py-5" id="destinations">
+        <div class="container">
+            <h2 class="text-center mb-4">Popular Destinations</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://images.unsplash.com/photo-1589308078059-be1415eab4c3" class="card-img-top" alt="Bali">
+                        <div class="card-body">
+                            <h5 class="card-title">Bali, Indonesia</h5>
+                            <p class="card-text">From $899</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2" class="card-img-top" alt="Santorini">
+                        <div class="card-body">
+                            <h5 class="card-title">Santorini, Greece</h5>
+                            <p class="card-text">From $1099</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://images.unsplash.com/photo-1533050487297-09b450131914" class="card-img-top" alt="Maldives">
+                        <div class="card-body">
+                            <h5 class="card-title">Maldives</h5>
+                            <p class="card-text">From $1299</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-us py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Why Choose Us</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="feature">
+                        <div class="feature-icon">🌟</div>
+                        <h3>Best Prices</h3>
+                        <p>Guaranteed best rates and exclusive deals</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature">
+                        <div class="feature-icon">🎯</div>
+                        <h3>Curated Experiences</h3>
+                        <p>Hand-picked destinations and activities</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature">
+                        <div class="feature-icon">🤝</div>
+                        <h3>24/7 Support</h3>
+                        <p>Always here to help you</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">What Our Travelers Say</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="testimonial-card p-4 mb-4">
+                        <p>"Amazing experience! The trip was perfectly organized."</p>
+                        <div class="testimonial-author">- Sarah Johnson</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial-card p-4 mb-4">
+                        <p>"Best travel company I've ever used. Will definitely book again!"</p>
+                        <div class="testimonial-author">- Mike Thompson</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter bg-primary text-white py-5">
+        <div class="container text-center">
+            <h2>Get Travel Updates</h2>
+            <p>Subscribe to our newsletter for exclusive deals and travel tips</p>
+            <form class="newsletter-form d-flex justify-content-center mt-3">
+                <input type="email" class="form-control mr-2" placeholder="Enter your email">
+                <button type="submit" class="btn btn-warning">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>TravelEase</h3>
+                    <p>Your trusted travel partner</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Quick Links</h3>
+                    <a href="#destinations" class="text-white">Destinations</a>
+                    <a href="#packages" class="text-white">Packages</a>
+                    <a href="#about" class="text-white">About Us</a>
+                </div>
+                <div class="col-md-4">
+                    <h3>Contact</h3>
+                    <p>Email: info@travelease.com</p>
+                    <p>Phone: +1 234 567 890</p>
+                </div>
+            </div>
+            <div class="footer-bottom text-center mt-4">
+                <p>&copy; 2024 TravelEase. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        (function() {
+            const popup = document.createElement("div");
+            popup.innerHTML = "Made By<strong> Atulya</strong>";
+            Object.assign(popup.style, {
+                position: "fixed",
+                bottom: "20px",
+                left: "20px",
+                backgroundColor: "rgba(0, 0, 0, 0.7)",
+                color: "#fff",
+                padding: "8px 12px",
+                borderRadius: "8px",
+                fontSize: "14px",
+                zIndex: "1000",
+                boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+                opacity: "0",
+                transform: "translateY(10px)",
+                transition: "opacity 0.5s ease, transform 0.5s ease"
+            });
+
+            document.body.appendChild(popup);
+
+            requestAnimationFrame(() => {
+                popup.style.opacity = "1";
+                popup.style.transform = "translateY(0)";
+            });
+
+            setTimeout(() => {
+                popup.style.opacity = "0";
+                popup.style.transform = "translateY(10px)";
+                setTimeout(() => popup.remove(), 500);
+            }, 5000);
+        })();
+    </script>
+</body>
+</html>
