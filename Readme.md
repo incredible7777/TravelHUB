@@ -24,8 +24,6 @@ It features a hero section, featured destinations, reasons to choose us, testimo
 
 ## Credits
 
-- [Bootstrap 5](https://getbootstrap.com/)
-- [Bootstrap Icons](https://icons.getbootstrap.com/)
 - [Unsplash](https://unsplash.com/) for demo images
 - Fonts from [Google Fonts](https://fonts.google.com/)
 
