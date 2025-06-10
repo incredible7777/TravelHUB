@@ -5,7 +5,6 @@ It features a hero section, featured destinations, reasons to choose us, testimo
 
 ## Features
 
-- Responsive layout using Bootstrap 5
 - Google Fonts: Montserrat, Inter, Roboto
 - Bootstrap Icons for visual appeal
 - Gradient backgrounds and modern cards
